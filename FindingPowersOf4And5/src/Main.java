@@ -8,6 +8,8 @@ public class Main {
         System.out.println("***********************");
         int i = 1;
         while(i < chosenNum){
+        // Math.ceil method rounds the specified double value to the upward integer while Math.floor does the opposite.
+       // Math.log returns the natural logarithm (base is e).
             if((int)(Math.ceil((Math.log(i) / Math.log(4)))) ==
                     (int)Math.floor((Math.log(i) / Math.log(4))) ||
                     (int)(Math.ceil((Math.log(i) / Math.log(5)))) ==
