@@ -8,22 +8,20 @@ public class Main {
         System.out.println("**********");
 
    for(int i = 1; i < chosenNum; i++){
+       // Math.ceil method rounds the specified double value to the upward integer while Math.floor does the opposite.
+       // Math.log returns the natural logarithm (base is e).
 
           if((int)(Math.ceil((Math.log(i) / Math.log(2)))) ==
                   (int)Math.floor((Math.log(i) / Math.log(2)))){
               System.out.println("i is a power of 2 : " + i);
-
           }
-
         }
         //Another way of doing it
       /*  int i = 1;
         while( i < chosenNum){
-
             System.out.println(i);
             i *= 2;
         }*/
-
         //Another way of doing it
        /* int i = 1;
         int n = 0;
