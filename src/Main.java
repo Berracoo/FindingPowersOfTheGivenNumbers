@@ -10,6 +10,7 @@ public class Main {
    for(int i = 1; i < chosenNum; i++){
        // Math.ceil method rounds the specified double value to the upward integer while Math.floor does the opposite.
        // Math.log returns the natural logarithm (base is e).
+        // this condition finds out if the ceil value of i equals to floor value by comparing their logarithm values.
 
           if((int)(Math.ceil((Math.log(i) / Math.log(2)))) ==
                   (int)Math.floor((Math.log(i) / Math.log(2)))){
